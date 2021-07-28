@@ -118,8 +118,8 @@ public class Main extends JFrame implements ActionListener {
 		setLocationRelativeTo(null);	
 	
 		
-		JPanel content = (JPanel) getContentPane(); //getContentPane pour pouvoir commencer à définir ce qu'il y a d'affiché comme -> 
-		content.setLayout(new BorderLayout());		//-> widget, ça modifie les propriétés de l'application
+		JPanel content = (JPanel) getContentPane();
+		content.setLayout(new BorderLayout());		
 		
 
 		
@@ -174,7 +174,7 @@ public class Main extends JFrame implements ActionListener {
 							return;
 						}else {
 							if(txtType == true) {
-								JOptionPane.showMessageDialog(frame, "Vous n'avez communiqué aucun nom !");
+								JOptionPane.showMessageDialog(frame, "Vous n'avez communiquÃ© aucun nom !");
 								
 								return;
 							}
